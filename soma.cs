@@ -11,7 +11,9 @@ class Program
         int numero2 = int.Parse(Console.ReadLine());
 
         int soma = numero1 + numero2;
+        int sub = numero1 - numero2;
 
         Console.WriteLine("A soma é: " + soma);
+        Console.WriteLine("A subtração é: " + sub);
     }
 }
